@@ -1,28 +1,28 @@
 basic.forever(function () {
     basic.pause(6950)
     for (let index = 0; index < 4; index++) {
-        maqueen.servoRun(maqueen.Servos.S1, 30)
+        maqueen.servoRun(maqueen.Servos.S1, 70)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S1, 10)
+        maqueen.servoRun(maqueen.Servos.S1, 50)
         basic.pause(200)
     }
     basic.pause(4000)
     for (let index = 0; index < 2; index++) {
-        maqueen.servoRun(maqueen.Servos.S1, 80)
+        maqueen.servoRun(maqueen.Servos.S1, 150)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S1, 60)
+        maqueen.servoRun(maqueen.Servos.S1, 130)
         basic.pause(200)
     }
     for (let index = 0; index < 3; index++) {
-        maqueen.servoRun(maqueen.Servos.S1, 30)
+        maqueen.servoRun(maqueen.Servos.S1, 70)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S1, 10)
+        maqueen.servoRun(maqueen.Servos.S1, 50)
         basic.pause(200)
     }
     for (let index = 0; index < 6; index++) {
-        maqueen.servoRun(maqueen.Servos.S1, 80)
+        maqueen.servoRun(maqueen.Servos.S1, 150)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S1, 60)
+        maqueen.servoRun(maqueen.Servos.S1, 130)
         basic.pause(200)
     }
     basic.pause(500)
@@ -234,28 +234,28 @@ basic.forever(function () {
 basic.forever(function () {
     basic.pause(6950)
     for (let index = 0; index < 4; index++) {
-        maqueen.servoRun(maqueen.Servos.S2, 30)
+        maqueen.servoRun(maqueen.Servos.S2, 70)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S2, 10)
+        maqueen.servoRun(maqueen.Servos.S2, 50)
         basic.pause(200)
     }
     basic.pause(4000)
     for (let index = 0; index < 2; index++) {
-        maqueen.servoRun(maqueen.Servos.S2, 80)
+        maqueen.servoRun(maqueen.Servos.S2, 150)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S2, 60)
+        maqueen.servoRun(maqueen.Servos.S2, 130)
         basic.pause(200)
     }
     for (let index = 0; index < 3; index++) {
-        maqueen.servoRun(maqueen.Servos.S2, 80)
+        maqueen.servoRun(maqueen.Servos.S2, 150)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S2, 60)
+        maqueen.servoRun(maqueen.Servos.S2, 130)
         basic.pause(200)
     }
     for (let index = 0; index < 6; index++) {
-        maqueen.servoRun(maqueen.Servos.S2, 30)
+        maqueen.servoRun(maqueen.Servos.S2, 70)
         basic.pause(200)
-        maqueen.servoRun(maqueen.Servos.S2, 10)
+        maqueen.servoRun(maqueen.Servos.S2, 50)
         basic.pause(200)
     }
     basic.pause(500)
