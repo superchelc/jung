@@ -1,5 +1,5 @@
 def on_forever():
-    basic.pause(6950)
+    basic.pause(6900)
     for index in range(4):
         maqueen.servo_run(maqueen.Servos.S1, 70)
         basic.pause(200)
@@ -23,9 +23,9 @@ def on_forever():
         basic.pause(200)
     for index5 in range(4):
         maqueen.servo_run(maqueen.Servos.S1, 70)
-        basic.pause(100)
+        basic.pause(200)
         maqueen.servo_run(maqueen.Servos.S1, 50)
-        basic.pause(100)
+        basic.pause(200)
     maqueen.servo_run(maqueen.Servos.S1, 50)
     basic.pause(500)
 basic.forever(on_forever)
@@ -234,33 +234,33 @@ def on_forever3():
 basic.forever(on_forever3)
 
 def on_forever4():
-    basic.pause(6950)
-    for index9 in range(4):
+    basic.pause(6900)
+    for index6 in range(4):
         maqueen.servo_run(maqueen.Servos.S2, 70)
         basic.pause(200)
         maqueen.servo_run(maqueen.Servos.S2, 50)
         basic.pause(200)
     basic.pause(4000)
-    for index10 in range(2):
+    for index7 in range(2):
         maqueen.servo_run(maqueen.Servos.S2, 150)
         basic.pause(200)
         maqueen.servo_run(maqueen.Servos.S2, 130)
         basic.pause(200)
-    for index11 in range(3):
+    for index8 in range(3):
         maqueen.servo_run(maqueen.Servos.S2, 150)
         basic.pause(200)
         maqueen.servo_run(maqueen.Servos.S2, 130)
         basic.pause(200)
-    for index12 in range(6):
+    for index9 in range(6):
         maqueen.servo_run(maqueen.Servos.S2, 70)
         basic.pause(200)
         maqueen.servo_run(maqueen.Servos.S2, 50)
         basic.pause(200)
-    for index13 in range(4):
+    for index10 in range(4):
         maqueen.servo_run(maqueen.Servos.S2, 70)
-        basic.pause(100)
+        basic.pause(200)
         maqueen.servo_run(maqueen.Servos.S2, 50)
-        basic.pause(100)
+        basic.pause(200)
     maqueen.servo_run(maqueen.Servos.S1, 50)
     basic.pause(500)
 basic.forever(on_forever4)
